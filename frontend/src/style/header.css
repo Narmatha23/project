@@ -1,0 +1,23 @@
+.bg-primary{
+    background-color: #78c2ad !important;
+}
+
+.logo-heading{
+    color: #f8f9fa;
+    display: inline-flex;
+    text-transform: uppercase;
+}
+.nav-tabs .nav-link {
+    width: 50%;
+    padding: 2rem;
+}
+.nav-tabs .nav-link.active{
+    background:none !important ;
+    color: #56cc9d
+}
+
+@media only screen and (max-width: 37.5em) {
+    .logo-heading{
+        font-size: 1.5rem;
+    }
+}
